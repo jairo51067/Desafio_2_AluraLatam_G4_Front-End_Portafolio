@@ -1,0 +1,27 @@
+.formcontato__botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+
+  width: 144px;
+  height: 51px;
+
+  /* Azul/100% */
+
+  background: #2a7ae4;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Preto/branco */
+
+  color: #ffffff;
+  border: none;
+}

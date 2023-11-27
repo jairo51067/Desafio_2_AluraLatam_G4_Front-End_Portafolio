@@ -1,0 +1,39 @@
+.sobre-mi_contenedor {
+  margin-top: 1em;
+  text-align: justify;
+  padding: 5.5em;
+  background: #eaf2fd;
+}
+
+.sobre_mi-titulo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  
+  color: #464646;
+}
+
+.sobre_mi-parafo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #464646;
+}
+
+@media only screen and (max-width: 390px) {
+  .sobre-mi_contenedor {
+    padding: 2em;
+  }
+
+  .sobre_mi-titulo {
+    font-size: 1.5em;
+  }
+  
+  .sobre_mi-parafo {
+    line-height: 1em;
+    line-height: 1.5em;
+  }
+}   

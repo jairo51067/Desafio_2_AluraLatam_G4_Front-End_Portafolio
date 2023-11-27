@@ -1,0 +1,113 @@
+.encabezado_contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 57px 0px 27px 0px;
+    padding: 0;
+}
+
+.encabezados_titulos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.encabezados_titulos-principal {
+    margin: 15px 0 15px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: normal;
+    color: #464646;
+}
+
+
+.encabezados_titulos-secundario {
+    margin: 10px 0 10px 0;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375em;
+
+    color: #464646;
+}
+
+
+.encabezados_navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.encabezados_navegador li {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.encabezados_navegador i {
+    margin-left: 10px;
+
+}
+
+.encabezados_foto {
+    border-radius: 100%;
+    box-shadow: 5px 10px 10px #8c8c8c;
+}
+
+@media only screen and (max-width: 768px) {
+    .encabezado_contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .encabezados_titulos {
+        align-items: center;
+    }  
+
+    .encabezados_titulos-principal {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .encabezados_navegador i {
+        display: none;
+    }
+
+    .encabezados_foto {
+        width: 70%;
+        margin-top: 1.5em;
+        margin-left: 3.75em;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    .encabezados_titulos-principal {
+        font-size: 1.85em;
+    }
+
+    .encabezados_titulos-secundario {
+        font-size: 0.85em;
+    }
+
+    .encabezados_navegador {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .encabezados_navegador i {
+        display: none;
+    }
+
+    .encabezados_foto {
+        width: 50%;
+        margin-left: 6.75em;
+    }
+} 

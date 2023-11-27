@@ -1,0 +1,61 @@
+.formacion_academica-contenedor {
+  margin-top: 1em;
+  padding: 5.5em;
+  background: #eaf2fd;
+}
+
+.formacion_academica-titulo {
+  margin-top: 1em;
+  color: #464646;
+  font-size: 2em;
+}
+
+.formacion_academica-cursos {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.formacion_academica-cursos-item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+ 
+  width: 250px;
+  height: 160px;
+
+  background: #ffffff;
+}
+
+.formacion_academica-cursos-item-img-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0.5rem;
+  
+  color: #464646;
+}
+
+.formacion_academica-cursos-item-img-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0.5rem;
+  
+  color: #464646;
+}
+
+@media only screen and (max-width: 768px) {
+  .formacion_academica-cursos {
+    flex-wrap: wrap;
+  }
+  
+}

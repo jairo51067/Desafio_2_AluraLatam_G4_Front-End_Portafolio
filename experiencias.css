@@ -1,0 +1,148 @@
+.experiencia_contenedor {
+  margin-top: 1em;
+  padding: 5.5em;
+
+}
+
+.experiencia_titulo {
+  margin-top: 1em;
+  color: #464646;
+  font-size: 2em;
+}
+
+.experiencia_trabajo {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experiencia_trabajo-img {
+  width: 47%;
+  border-radius: 1em;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+.experiencia_trabajo-descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  width: 47%;
+  border-radius: 1em;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.experiencia_trabajo-descripcion-tipo {
+
+  padding: 10px 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+
+  color: #464646;
+}
+
+.experiencia_trabajo-descripcion-donde {
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25em;
+
+  color: #464646;
+}
+
+.experiencia_trabajo-descripcion-enlaces {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 10px;
+  gap: 10px;
+
+}
+
+.experiencia_trabajo-descripcion-btn-github {
+  padding: 16px;
+  border: 1px solid #2a7ae4;
+
+}
+
+.experiencia_boton-repositorio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A7AE4;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.experiencia_trabajo-descripcion-btn-demostracion {
+  padding: 16px;
+  border: 1px solid #2a7ae4;
+
+}
+
+.experiencia_boton-demostracion {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2A7AE4;
+  background-color: #FFFFFF;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .experiencia_trabajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .experiencia_trabajo-img,
+  .experiencia_trabajo-descripcion {
+    width: 87%;
+  }
+
+  .experiencia_trabajo-descripcion {
+    gap: 65px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .experiencia_contenedor {
+    margin-top: 1em;
+    padding: 1.5em;
+  }
+
+  .experiencia_titulo {
+    text-align: center;
+  }
+
+  .experiencia_trabajo-descripcion {
+    gap: 25px;
+  }
+
+  .experiencia_trabajo-descripcion-tipo {
+    font-size: 0.85em;
+  }
+
+  .experiencia_trabajo-descripcion-donde {
+    font-size: 0.75em;
+  }
+
+  .experiencia_trabajo-descripcion-enlaces {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+  }
+}

@@ -1,0 +1,11 @@
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 656px;
+    height: 397px;
+     
+}
