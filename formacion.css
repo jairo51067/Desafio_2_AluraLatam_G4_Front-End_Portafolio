@@ -1,5 +1,5 @@
 .formacion_academica-contenedor {
-  margin-top: 1em;
+  
   padding: 5.5em;
   background: #eaf2fd;
 }
@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   padding: 16px;
- 
+
   width: 250px;
   height: 160px;
 
@@ -38,7 +38,7 @@
   font-size: 22px;
   line-height: 26px;
   margin: 0.5rem;
-  
+
   color: #464646;
 }
 
@@ -49,7 +49,7 @@
   font-size: 16px;
   line-height: 19px;
   margin: 0.5rem;
-  
+
   color: #464646;
 }
 
@@ -57,5 +57,46 @@
   .formacion_academica-cursos {
     flex-wrap: wrap;
   }
-  
+
+}
+
+@media only screen and (max-width: 390px) {
+  .formacion_academica-contenedor {
+    padding: 1.5em;
+  }
+
+  .formacion_academica-titulo {
+    padding: 0.5em;
+    font-size: 1.15em;
+  }
+
+  .experiencia_trabajo{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .formacion_academica-cursos-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .formacion_academica-cursos-item-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .formacion_academica-cursos-item-img img {
+    width: 75%;
+  }
+
+  .formacion_academica-cursos-item-img-title,
+  .formacion_academica-cursos-item-img-subtitle {
+    font-size: 0.75em;
+    text-align: end;
+  }
 }

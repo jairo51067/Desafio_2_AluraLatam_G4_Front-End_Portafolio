@@ -21,9 +21,9 @@
 
 
     <!--estilos generales-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos_basicos.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
 
     <!--estilos -->
     <link rel="stylesheet" href="menu.css">
@@ -33,23 +33,9 @@
     <link rel="stylesheet" href="hobbies.css">
     <link rel="stylesheet" href="formacion.css">
     <link rel="stylesheet" href="experiencias.css">
-
-    <!-- <link rel="stylesheet" href="formcontato.css">
-    <link rel="stylesheet" href="fromcontato-contacto.css">
-    <link rel="stylesheet" href="formcontato-text.css">
-    <link rel="stylesheet" href="formcontato-title.css">
-    <link rel="stylesheet" href="formcontato-subtext.css">
-    <link rel="stylesheet" href="formcontato-form.css">
-    <link rel="stylesheet" href="formcontato-input.css">
-    <link rel="stylesheet" href="formcontato-botao.css">
-
+    <link rel="stylesheet" href="contacto.css">
     <link rel="stylesheet" href="imprimir.css">
-    <link rel="stylesheet" href="imprimir-documento.css">
-    <link rel="stylesheet" href="imprimir-titulo.css">
-    <link rel="stylesheet" href="imprimir-imagen.css">
-
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="footer-rodape.css"> -->
 
 </head>
 
@@ -107,7 +93,6 @@
 
     <!-- Sección sobre mi -->
     <section class="sobre-mi_contenedor">
-
         <h3 class="sobre_mi-titulo">Sobre mi</h3>
         <p class="sobre_mi-parafo">Me forme como profesional, en Instituto Universitario Region Los Andes IUT,
             como T.S.U. en Alimentos, me especialice en Lácteos y forme parte de la industria privada del ramo
@@ -115,7 +100,7 @@
             pais de origen Venezuela, por razones ajenas a mi voluntad debi dar un nuevo giro en mis
             presepectiva de emprendimientos y me comence a formar de forma auto_didacta en el Desarrollo Web,
             acualmente formo parte del programa AluraONE y me estoy en el programa consolidadndo mi formacion en
-            el area de Front_End</p>
+            el area de Front_End.</p>
     </section>
 
     <!-- Sección de Skills -->
@@ -201,7 +186,7 @@
 
     <!-- Sección de Formación académica -->
     <section class="formacion_academica-contenedor">
-        <h2 class="formacion_academica-titulo">Formación académica</h2>
+        <h3 class="formacion_academica-titulo">Formación académica</h3>
 
         <div class="formacion_academica-cursos">
             <div class="formacion_academica-cursos-box">
@@ -219,39 +204,39 @@
 
             <div class="formacion_academica-cursos-box">
                 <ul class="formacion_academica-cursos-items">
-                    <!-- Pon el logotipo de la institución de formación -->
+                  
                     <li class="formacion_academica-cursos-item-img"><img src="autodidacta.jpg"></li>
                     <li class="formacion_academica-cursos-item-img-title">
                         <h4>Formación autodidacta</h4>
                     </li>
                     <li class="formacion_academica-cursos-item-img-subtitle">
-                        <p>2019 - </p>
+                        <p>2019 - Actual</p>
                     </li>
                 </ul>
             </div>
 
             <div class="formacion_academica-cursos-box">
                 <ul class="formacion_academica-cursos-items">
-                    <!-- Pon el logotipo de la institución de formación -->
+                    
                     <li class="formacion_academica-cursos-item-img"><img src="UNA.jpg"></li>
                     <li class="formacion_academica-cursos-item-img-title">
                         <h4>Contaduria publica</h4>
                     </li>
                     <li class="formacion_academica-cursos-item-img-subtitle">
-                        <p>En curso -</p>
+                        <p>En curso - Actual</p>
                     </li>
                 </ul>
             </div>
 
             <div class="formacion_academica-cursos-box">
                 <ul class="formacion_academica-cursos-items">
-                    <!-- Pon el logotipo de la institución de formación -->
+                    
                     <li class="formacion_academica-cursos-item-img"><img src="IUT.jpg"></li>
                     <li class="formacion_academica-cursos-item-img-title">
                         <h4>T.S.U. en Alimentos</h4>
                     </li>
                     <li class="formacion_academica-cursos-item-img-subtitle">
-                        <p>1990 - IUT </p>
+                        <p>1990 IUT - Finalizado </p>
                     </li>
                 </ul>
             </div>
@@ -288,51 +273,57 @@
     </section>
 
     <!-- Sección de Contacto -->
-    <!-- <section class="formcontato" id="contacto">
-            <div class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="contact_image.png">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en
-                        contacto con
-                        usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                            placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                    </form>
-                </div>
+    <section class="contacto_contenedor">
+        <div class="contacto_secciones">
+            <div class="contacto_seccion-izquierda">
+                <img class="contacto_seccion-izquierda-img" src="contacto.png">
+                <a href="https://wa.me/+5804152581478" target="_blank"><button type="button"
+                        class="contacto_wp">WhaptsApp</button></a>
             </div>
-        </section> -->
+            <div class="contacto_seccion-formulario">
+                <h2 class="formulario_titulo">Contacto</h2>
+                <h3 class="formulario_pregunta">¿Quieres contactarme?</h3>
+                <h3 class="formulario_pregunta">Complete el siguiente formulario y me pondré en
+                    contacto con
+                    usted lo antes posible. </h3>
+
+                <form class="formulario_form" name="form">
+                    <input class="formulario_form-input" type="text" name="nombre" placeholder="Nombre:" required>
+                    <input class="formulario_form-input" type="email" name="email" placeholder="E-mail:" required>
+                    <input class="formulario_form-input" type="text" name="asunto" placeholder="Assunto:" required>
+                    <textarea class="formulario_textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                        placeholder="Escribe tu mensaje:" required></textarea>
+                    <button type="submit" class="formulario_btn-enviar">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- Sección de imprimir curriculum -->
-    <!-- <section class="imprimir" id="curriculum">
-            <div class="imprimir__documento">
-
-                <a href="curriculum JAIRO CÁRDENAS.pdf" target="_blank"><img class="imprimir__imagen"
-                        src="file-pdf-solid.svg" alt="Ver curriculum"></a>
-                <h3 class="imprimir__titulo">Ver Curriculum</h3>
-                <br>
-                <a href="curriculum JAIRO CÁRDENAS.pdf" download="Curriculum Jairo Cárdenas PDF"><img
-                        class="imprimir__imagen" src="download-solid.svg" alt="Ver curriculum"></a>
-                <h3 class="imprimir__titulo">Descargar Curriculum</h3>
+    <section class="imprimir_curriculum-contenido">
+        <h2 class="imprimir_curriculum-titulo">Mi curriculum</h2>
+        
+        <div class="imprimir_curriculum-documentos">
+            <div class="imprimir_curriculum-documentosVista">
+                <h3 class="imprimir_curriculum-documentosTitulo">Leer</h3>
+                <a href="curriculum JAIRO CÁRDENAS.pdf" target="_blank"><img class="imprimir_curriculum-documentosImagen" src="leer_mi_cv.png" alt="leer_mi_cv"></a>
             </div>
-        </section> -->
+
+            <div class="imprimir_curriculum-documentosVista">
+                <h3 class="imprimir_curriculum-documentosTitulo">Descargar</h3>
+                <a href="curriculum JAIRO CÁRDENAS.pdf" download="Curriculum Jairo Cárdenas PDF"><img class="imprimir_curriculum-documentosImagen" src="descargar_mi_cv.png" alt="descargar_mi_cv"></a>
+            </div>
+
+        </div>
+    </section>
 
     <!-- Sección de Footer -->
-    <!-- <section class="footer">
+    <section class="footer_contenido">
             <div class="footer__rodape">
-                <p>Desarrollado por Jairo Cardenas</p>
+                <p>Desarrollado por Jairo Cardenas en el proyecto Oracle ONE en Alura Latam.</p>
                 <p>Marzo - 2023</p>
             </div>
-        </section> -->
-
+        </section>
 
 </body>
 

@@ -1,3 +1,55 @@
-.imprimir{
-    height: 13rem;
+.imprimir_curriculum-contenido {
+    padding: 5.5em;
+}
+
+.imprimir_curriculum-titulo {
+    margin-bottom: 1em;
+    color: #464646;
+    font-size: 2em;
+}
+
+
+.imprimir_curriculum-documentos {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.imprimir_curriculum-documentosVista {
+    display: inherit;
+    gap: 10%;
+
+}
+
+.imprimir_curriculum-documentosTitulo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    color: #464646;
+}
+
+.imprimir_curriculum-documentosImagen {
+    width: 35%;
+}
+
+
+@media only screen and (max-width: 390px) {
+
+    .imprimir_curriculum-contenido {
+        padding: 1.5em;
+    }
+
+    .imprimir_curriculum-titulo, .imprimir_curriculum-documentosTitulo {
+        font-size: 1.15em;
+    }
+
+    .imprimir_curriculum-documentos {
+        flex-direction: column;
+    }
+
+    .imprimir_curriculum-documentosVista {
+        display: flow-root;
+        text-align: center;
+    }
 }

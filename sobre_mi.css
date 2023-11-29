@@ -1,5 +1,4 @@
 .sobre-mi_contenedor {
-  margin-top: 1em;
   text-align: justify;
   padding: 5.5em;
   background: #eaf2fd;
@@ -25,15 +24,16 @@
 
 @media only screen and (max-width: 390px) {
   .sobre-mi_contenedor {
-    padding: 2em;
+    margin: 0 auto;
+    padding: 1.5em;
   }
 
   .sobre_mi-titulo {
-    font-size: 1.5em;
+    font-size: 1.15em;
   }
   
   .sobre_mi-parafo {
-    line-height: 1em;
-    line-height: 1.5em;
+    text-align:justify;
+    font-size: 1em;
   }
 }   

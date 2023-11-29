@@ -1,0 +1,151 @@
+.contacto_contenedor {
+  padding: 5.5em;
+  background: #eaf2fd;
+} 
+
+.contacto_secciones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacto_seccion-izquierda {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.contacto_seccion-izquierda-img {
+  margin-top: 25%;
+  margin-left: 8%;
+  width: 20vw;
+  height: 30vh;
+}
+
+.contacto_wp {
+  width: 100%;
+  height: 65px;
+  background-color: #25D366;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
+
+.contacto_wp:hover {
+  background-color: #464646;
+}
+
+
+.contacto_seccion-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+
+
+}
+
+.formulario_titulo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #464646;
+}
+
+
+.formulario_pregunta {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+}
+
+
+.formulario_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+
+}
+
+.formulario_form-input {
+  width: 99%;
+  height: 50px;
+}
+
+.formulario_textarea {
+  width: 99%;
+  height: 70px;
+}
+
+.formulario_btn-enviar {
+  margin: 0 auto;
+  width: 100%;
+  padding: 23px;
+  background: #2a7ae4;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+
+}
+
+.formulario_btn-enviar:hover {
+  background-color: #464646;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .contacto_contenedor {
+    margin-top: 1em;
+    padding: 3.5em;
+  }
+
+  .contacto_secciones {
+    flex-direction: column;
+    gap: 3%;
+  }
+
+  .contacto_seccion-izquierda {
+    display: flex;
+  }
+
+  .contacto_seccion-izquierda-img {
+    margin-top: 0%;
+    margin-left: 30%;
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .contacto_seccion-formulario {
+    margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .contacto_contenedor {
+    padding: 1.5em;
+  }
+
+  .contacto_wp, .formulario_titulo, .formulario_btn-enviar {
+    font-size: 1.15em;
+  }
+
+  .contacto_seccion-izquierda-img {
+    margin-top: 0%;
+    margin-left:25%;
+    width: 45vw;
+    height: 18vh;
+  }
+}

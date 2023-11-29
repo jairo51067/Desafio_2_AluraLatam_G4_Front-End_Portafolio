@@ -1,15 +1,15 @@
 .encabezado_contenedor {
     display: flex;
-    justify-content: space-evenly;
-    margin: 57px 0px 27px 0px;
-    padding: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5.5em;
 }
 
 .encabezados_titulos {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .encabezados_titulos-principal {
@@ -87,19 +87,24 @@
 }
 
 @media only screen and (max-width: 390px) {
+    .encabezado_contenedor{
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .encabezados_titulos-principal {
-        font-size: 1.85em;
+        font-size: 1.5em;
     }
 
-    .encabezados_titulos-secundario {
+    .encabezados_titulos-secundario  {
         font-size: 0.85em;
+        text-align: center;
     }
 
-    .encabezados_navegador {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
 
+    .encabezados_navegador a{
+        font-size: 0.85em;
+        text-decoration: underline;
     }
 
     .encabezados_navegador i {
@@ -108,6 +113,7 @@
 
     .encabezados_foto {
         width: 50%;
-        margin-left: 6.75em;
+        margin-top: 1.5em;
+        margin-left: 5.75em;
     }
 } 

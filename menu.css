@@ -1,17 +1,17 @@
 .menu_contenedor {
-  margin-top: 1%;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1em 5.5em 0 5.5em;
 }
 
-.menu-logo_contenedor{
+.menu-logo_contenedor {
   display: flex;
 }
 
 .menu_logo {
-  align-items: center;  
+  align-items: center;
 }
 
 .menu_logo img {
@@ -25,6 +25,7 @@
 }
 
 .menu_nav {
+  font-size: 1.15em;
   display: flex;
   align-items: center;
   gap: 25px;
@@ -32,22 +33,48 @@
 
 
 @media only screen and (max-width: 768px) {
-  .menu-logo_contenedor{
-    margin-right: 400px;
+  .menu_contenedor{
+    margin: 0 auto;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
   }
-
+  .menu_nav{
+   
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 2em;
+  }
 }
 
 @media only screen and (max-width: 390px) {
-  .menu-logo_contenedor{
-    margin:auto;
-  }
-  .menu_nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+  .menu_contenedor{
+    margin: 0 auto;
+    padding: 0;
   }
 
-}    
+  .menu-logo_contenedor {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+   
+  }
+
+  .menu_nombre {
+    margin: 0 auto;
+    padding: 0 0 25px 0;
+    font-size: 1em;
+  }
+
+  .menu_nav {
+    font-size: 0.85em;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13px;
+  }
+
+  
+
+}
