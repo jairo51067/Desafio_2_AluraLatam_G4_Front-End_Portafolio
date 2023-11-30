@@ -9,6 +9,6 @@
 
 Gracias, por visitar mi desafio 2 portafolio. Puedes visualizarlo en
 
-https://jairo51067.github.io/6-Desafio-2-Challenge-G4_ONE-Front-End_Portafolio-github/
+https://jairo51067.github.io/Desafio_2_AluraLatam_G4_Front-End_Portafolio/
 
 Last deployed by @jairo51067 jairo51067 1 minute ago
